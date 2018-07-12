@@ -10,6 +10,9 @@
 }
 
 .header {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
   align-self: center;
 
   &__skew {
@@ -30,7 +33,20 @@
     position: absolute;
     height: 110vh;
     width: 100vw;
-    background-color: #00CB79;
+  background-color: #00CB79;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+  }
+  p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 19px;
+    width: 400px;
   }
 }
 
@@ -40,7 +56,6 @@
   width: 1240px;
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, .06);
   border-radius: 7px;
-  // Additional Styles
   display: grid;
   grid-template-rows: 1fr 50px;
 
@@ -53,7 +68,7 @@
     align-items: center;
   }
 }
-// Additional Styles
+
 .input {
   display: grid;
   // grid-template-rows: 1fr 1fr 1fr;
