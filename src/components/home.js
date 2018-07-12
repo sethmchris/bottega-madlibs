@@ -15,8 +15,7 @@ class Home extends Component {
 }
 
 // things we need to fix
-
 // content labels
-// generate button space/card height
+// generate button space/card
 
 export default Home;
