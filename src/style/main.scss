@@ -117,11 +117,27 @@
 
     justify-self: center;
     margin-bottom: 84px;
+
+    font-family: 'Montserrat', sans-serif;
     
+    &__label {
+      height: 18px;
+      width: 18px;
+      line-height: 22px;
+      background-color: black;
+      border-radius: 50%;
+      font-size: 14px;
+
+      text-align: center;
+      color: white;
+      // padding-top: 2px;
+      display: inline-block;
+      margin: 4px;
+    }
+
     p {
       line-height: 29px;
       padding: 50px 47px;
-      font-family: 'Montserrat', sans-serif;
       font-size: 16px;
       font-weight: 300;
     }
@@ -177,4 +193,3 @@
     border-radius: 50%;
   }
 }
-
